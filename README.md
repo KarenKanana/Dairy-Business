@@ -1,6 +1,14 @@
 # Dairy Farm Monitor System
 
 ## Table of Contents
+- [Project Description](#project-description)
+- [Features](#features)
+- [Technology Used](#technology-used)
+- [Setup Instructions](#setup-instructions)
+- [Live Page](#live-page)
+- [Copyright and license information](#copyright-and-license-information)
+- [Author's Information](#authors-information)
+- [Support and contact details](#support-and-contact-details)
 
 ## Project Description
 
