@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: #1a9695;
+    font-family: 'Oleo Script', cursive;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+    
+}
+@media screen and (max-width: 760px) {
+    .produce{
+        display: flex;
+        flex-direction: column;  
+    }
+}
+/* Header Section */
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:10px 10px 30px rgb(150, 179, 169);
+    background-color: #1a9695;
+    color: white;
+    height: 60px;
+    margin-top: 0px;
+}
+
+/* Input form */
