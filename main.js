@@ -1,6 +1,5 @@
-//function that gives you a report on how much milk is produced per shed and the total amount of milk produced by all sheds
-
-function produceReport() {
+alert("Get out!");
+    function produceReport(){
 
     event.preventDefault();
 
@@ -13,7 +12,7 @@ function produceReport() {
 
     let sumData = data.shed - A + data.shed - B + data.shed - C + data.shed - D;
 
-    //Output
+    
     document.getElementById("outputData").innerHTML += "<Br>"
 
     document.getElementById("outputData").innerHTML += "<p>Your production in shed A is " + data.shed-A + " litres per day</p>";
@@ -22,5 +21,6 @@ function produceReport() {
     document.getElementById("outputData").innerHTML += "<p>Your production in shed D is " + data.shed-D + " litres per day</p>";
 
     document.getElementById("outputData").innerHTML += "<p>Your total production per day is " + sumData + " litres per day</p>";
-}
-console.log(outputData);
+
+    }
+    
