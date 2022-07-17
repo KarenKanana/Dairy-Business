@@ -78,21 +78,41 @@
 
     document.getElementById("outputData").innerHTML += "<Br>"
 
+    //New price = 49.60
+    newDailyIncome = sumData * 49.60;
 
+    newIncomeJanuary = newDailyIncome * 31;
+    newIncomeFebruary = newDailyIncome * 29;
+    newIncomeMarch = newDailyIncome * 31;
+    newIncomeApril = newDailyIncome * 30;
+    newIncomeMay = newDailyIncome * 31;
+    newIncomeJune = newDailyIncome * 30;
+    newIncomeJuly = newDailyIncome * 31;
+    newIncomeAugust = newDailyIncome * 31;
+    newIncomeSeptember = newDailyIncome * 30;
+    newIncomeOctober = newDailyIncome * 31;
+    newIncomeNovember = newDailyIncome * 30;
+    newIncomeDecember = newDailyIncome * 31;
 
+    newIncomeInLeapYear = 366 * 49.60;
 
+    incomeJanuaryDifference = newIncomeJanuary - incomeJanuary;
+    incomeFebruaryDifference = newIncomeFebruary - incomeFebruary;
+    incomeMarchDifference = newIncomeMarch - incomeMarch;
+    incomeAprilDifference = newIncomeApril - incomeApril;
+    incomeMayDifference = newIncomeMay - incomeMay;
+    incomeJuneDifference = newIncomeJune - incomeJune;
+    incomeJulyDifference = newIncomeJuly - incomeJuly;
+    incomeAugustDifference = newIncomeAugust - incomeAugust;
+    incomeSeptemberDifference = newIncomeSeptember - incomeSeptember;
+    incomeOctoberDifference = newIncomeOctober - incomeOctober;
+    incomeNovemberDifference = newIncomeNovember - incomeNovember;
+    incomeDecemberDifference = newIncomeDecember - incomeDecember;
 
+    };
+    function resetPage(){
 
-
-
-
-
-
-
-
-
-
-
-
-    }
+        document.getElementById("outputData").remove("innerHTML");
+        location.reload();
     
+    };

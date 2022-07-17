@@ -106,7 +106,7 @@ h4 {
     font-weight: 100;
     margin-top: 30px;
     padding-bottom: 45%;
-    margin-bottom: 20p;
+    margin-bottom: 20px;
 
    
     
@@ -118,5 +118,7 @@ h4 {
 
 #outputData{
     padding: 0px 20px;
-    
+    color: #fafafa;
+    background-color: black;
+
 } 
