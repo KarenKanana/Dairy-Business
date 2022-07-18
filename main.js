@@ -1,24 +1,23 @@
-    function produceReport(){
+function produceReport(){
 
-    event.preventDefault();
+    // event.preventDefault();
 
     let data = [];
 
-    data[0] = data["shed-A"] = parseInt(document.getElementById("shed-A").value);
-    data[1] = data["shed-B"] = parseInt(document.getElementById("shed-B").value);
-    data[2] = data["shed-C"] = parseInt(document.getElementById("shed-C").value);
-    data[3] = data["shed-D"] = parseInt(document.getElementById("shed-D").value);
+    data[0] =parseInt(document.getElementById("shed-A").value);
+    data[1] =parseInt(document.getElementById("shed-B").value);
+    data[2] =parseInt(document.getElementById("shed-C").value);
+    data[3] =parseInt(document.getElementById("shed-D").value);
 
-    let sumData = data.shed - A + data.shed - B + data.shed - C + data.shed - D;
+    let sumData=data[0]+data[1]+data[2]+data[3];
 
     
     document.getElementById("outputData").innerHTML += "<Br>"
 
-    document.getElementById("outputData").innerHTML += "<p>Your production in shed A is " + data.shed-A + " litres per day</p>";
-    document.getElementById("outputData").innerHTML += "<p>Your production in shed B is " + data.shed-B + " litres per day</p>";
-    document.getElementById("outputData").innerHTML += "<p>Your production in shed C is " + data.shed-C + " litres per day</p>";
-    document.getElementById("outputData").innerHTML += "<p>Your production in shed D is " + data.shed-D + " litres per day</p>";
-
+    document.getElementById("outputData").innerHTML += "<p>Your production in shed A is " + data[0] + " litres per day</p>";
+    document.getElementById("outputData").innerHTML += "<p>Your production in shed B is " + data[1] + " litres per day</p>";
+    document.getElementById("outputData").innerHTML += "<p>Your production in shed C is " + data[3] + " litres per day</p>";
+    document.getElementById("outputData").innerHTML += "<p>Your production in shed D is " + data[4] + " litres per day</p>";
     document.getElementById("outputData").innerHTML += "<p>Your total production per day is " + sumData + " litres per day</p>";
 
     dailyIncome = sumData * 45;
@@ -51,6 +50,7 @@
     incomeOctober = dailyIncome * 31;
     incomeNovember = dailyIncome * 30;
     incomeDecember = dailyIncome * 31;
+
 
     document.getElementById("outputData").innerHTML += "<p> Your total income for January is Ksh. " + incomeJanuary + " </p>"
     document.getElementById("outputData").innerHTML += "<p> Your total income for February is Ksh. " + incomeFebruary + " </p>"
@@ -136,10 +136,11 @@
     document.getElementById("outputData").innerHTML += "<p>December: At price = Ksh. 45, you earn: Ksh. " + incomeDecember + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeDecember) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeDecemberDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "<Br>"
 
-
     }
-    function resetPage(){
+    ot.addEventListener("click", produceReport);
 
+    function resetPage(){
+    
         document.getElementById("outputData").remove("innerHTML");
         location.reload();
     

@@ -19,9 +19,11 @@
         <h2>Dairy Farm Monitor System</h2>
         <div class="produce">
 
+            
             <!--Input form-->
             <div class="formData">
-                <form action="submit" onsubmit="produceReport();">
+                <!-- onsubmit="produceReport();" -->
+                <form action="submit">
                     <h4>Fill and submit the form below to get an income summary</h4>
                     <div class="sheds">
                         <label for="shed-A">shed-A</label>
@@ -39,7 +41,7 @@
                         <label for="shed-D">shed-D</label>
                         <input id="shed-D" type="number" min="0" required>
                     </div>
-                    <button type="submit">Submit</button>
+                    <button type="button"  id="ot">Submit</button>
                     <button id="reset" type="reset" onclick="resetPage();">Reset</button>
 
                 </form>
@@ -55,7 +57,7 @@
 
     </section>
 
-    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
