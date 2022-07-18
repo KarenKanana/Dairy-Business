@@ -52,21 +52,34 @@ h2 {
     flex-direction: row;
     width: 100%;
     margin-top: 20px;
+    gap: 15px;
+    
 }
 .formData > form {
     width: 100%;
     padding: 30px;
+
 }
 form > div > input[type="number"]{
         height: 25px;
+        color: #000;
+        background-color: #f6f6f6;
+        border: none;
+        border-radius: 5px;
+        
 }
 
 /* Input Form buttons */
-form > button {
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns > button {
     
     
     padding: 10px 20px;
-    width: 35%;
+    width: 11vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,11 +90,18 @@ form > button {
     border-radius: 20px;
     font-size: 18px;
     font-weight: 800;
-    margin: auto;
-    margin-top: 20px;
+    
+    margin-top: 40px;
+    margin-bottom: -30px;
+    display: inline-block;
+    margin-left: 50px;
+    position:relative;
+    
+
    
 }
-form > button:hover {
+
+.btns > button:hover {
     cursor: pointer;
     color: black;
 }
@@ -90,7 +110,7 @@ h4 {
     justify-content: center;
     align-items: center;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     
 }
 
@@ -122,3 +142,12 @@ h4 {
 
 
 } 
+form > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: -30px;
+}

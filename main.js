@@ -109,7 +109,7 @@ function produceReport(){
     incomeNovemberDifference = newIncomeNovember - incomeNovember;
     incomeDecemberDifference = newIncomeDecember - incomeDecember;
 
-    document.getElementById("outputData").innerHTML += "<h3> Comparison and difference in income per month for different prices </h3>";
+    document.getElementById("outputData").innerHTML += "<h4> Different prices comparison </h4>";
 
     document.getElementById("outputData").innerHTML += "<p>January: At price = Ksh. 45, you earn: Ksh. " + incomeJanuary + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeJanuaryDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
