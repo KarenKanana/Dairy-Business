@@ -1,5 +1,9 @@
 # Dairy Farm Monitor System
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> gh-pages
 ## Table of Contents
 - [Project Description](#project-description)
 - [Features](#features)
@@ -10,6 +14,7 @@
 - [Author's Information](#authors-information)
 - [Support and contact details](#support-and-contact-details)
 
+<<<<<<< HEAD
 ## Project Description
 
 
@@ -17,6 +22,25 @@
 
 
 ## Technology Used
+=======
+
+## Project Description
+The aim of this project is to help practice and understand better complementary JavaScript concepts while creating a dairy farm monitor system that helps remotely monitor milk production and sales on the farm.
+
+
+## Features
+- Input form (Allows input of milk in litres in different sheds per day)
+- Output Display
+- Calculates total daily produce
+- Income output over time
+- Monthly & annual reports
+
+
+## Technology Used
+- HTML
+- CSS
+- JavaScript
+>>>>>>> gh-pages
 
 
 ## Setup Instructions
@@ -30,6 +54,7 @@
 
 
 ## Live Page
+<<<<<<< HEAD
 >  
 
 
@@ -38,6 +63,17 @@
 
 Copyright (c) 2022 Karen Kanana
 
+=======
+>  https://karenkanana.github.io/Dairy-Business/
+
+
+## Copyright and license information
+> [MIT License](https://github.com/KarenKanana/Dairy-Business/blob/gh-pages/LICENSE)
+
+Copyright (c) 2022 Karen Kanana
+
+
+>>>>>>> gh-pages
 ## Author's Information
 - Name: Karen Kanana 
 - Email: kananakaren21@gmail.com
@@ -47,4 +83,9 @@ Copyright (c) 2022 Karen Kanana
 ## Support and contact details
 For any further clarification and support contact:
 
+<<<<<<< HEAD
 Email: kananakaren21@gmail.com 
+=======
+Email: kananakaren21@gmail.com 
+
+>>>>>>> gh-pages
